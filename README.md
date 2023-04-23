@@ -44,4 +44,4 @@ flask --debug run --port 5001
 ## Links 
 `Deploy Link` [CSEngine](https://8642-103-25-231-102.ngrok-free.app/)
 
-This project is deployed on ngrok and it may expire by the time of presentation. We can still run the project on local host or deploy again to genrate new URL.
+This project is deployed on ngrok and it may expire by the time of presentation. We can still always run our project on local host or deploy again to genrate new URL.
