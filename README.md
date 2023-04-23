@@ -1,12 +1,21 @@
 
 # CSE_Guide_Engine
 
-To Run this flask web application first run
+## Project overview 
+
+In this project, we'll build a search engine that uses filtering to reorder results. The engine will get search results, store them, then rank them based on filters we define. We'll end up with a basic search page and results list.
+
+## Installation
+
+To follow this project, please install the following locally:
+
+`Python:3.9+`
 
 ```
 pip install -r requirements.txt 
 ```
-to install all of the Python modules and packages listed in your requirements.txt file
+## Run
+To install all of the Python modules and packages listed in your requirements.txt file
 
 and then run flask app on localhost by 
 
@@ -15,7 +24,7 @@ flask --debug run --port 5001
 ```
 
 
-File overview:
+## File overview:
 
 `app.py` - contains main code for flask app.
 
@@ -32,7 +41,7 @@ File overview:
 `blacklist.txt` - contains list of all proxy websites.
 
 `links.db` -  SQLite database file where results are stored.
-## links 
+## Links 
 `Deploy Link` [CSEngine](https://8642-103-25-231-102.ngrok-free.app/)
 
 This project is deployed on ngrok and it may expire by the time of presentation. We can still run the project on local host or deploy again to genrate new URL.
