@@ -1,5 +1,17 @@
 
 # CSE_Guide_Engine
+
+To Run this flask web application first run
+pip install -r requirements.txt 
+```
+git status
+git add
+git commit
+```
+to install all of the Python modules and packages listed in your requirements.txt file
+
+
+
 1) app.py - contains main code for flask app.
 2) search.py - contains a code where user’s query will be searched on the web.
 3) filter.py - have code for filtering the results on ads and proxy websites.
@@ -10,5 +22,3 @@
 links.db -  SQLite database file where results are stored.
 8) Deploy Link: https://8642-103-25-231-102.ngrok-free.app/
 The deploy link is only valid for 24 April midnight. If needed we will generate another deploy link at the time of presentation. The project can also be run on local host.
-9) At first we will run requirements.txt to load all the python libraries required.
-10) To run code on local host type flask --debug run --port 5000. Port can be anything.
