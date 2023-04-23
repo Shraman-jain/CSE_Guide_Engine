@@ -18,6 +18,7 @@ flask --debug run --port 5001
 File overview:
 
 `app.py` - contains main code for flask app.
+
 `search.py` - contains a code where user’s query will be searched on the web.
 `filter.py` - have code for filtering the results on ads and proxy websites.
 `lang_modelling.py` - contains a code for filtering the result on the basis of language modelling score.
@@ -25,5 +26,6 @@ File overview:
 `storage.py` - contains code for storing the result into database.
 `blacklist.txt` - contains list of all proxy websites.
 `links.db` -  SQLite database file where results are stored.
+## links 
 `Deploy Link` [![CseGuideEngine]](https://8642-103-25-231-102.ngrok-free.app/)
 The deploy link is only valid for 24 April midnight. If needed we will generate another deploy link at the time of presentation. The project can also be run on local host.
