@@ -3,7 +3,8 @@
 
 To Run this flask web application first run
 
-```pip install -r requirements.txt 
+```
+pip install -r requirements.txt 
 ```
 to install all of the Python modules and packages listed in your requirements.txt file
 
@@ -16,7 +17,7 @@ flask --debug run --port 5001
 
 File overview:
 
-1) app.py - contains main code for flask app.
+`app.py` - contains main code for flask app.
 2) search.py - contains a code where user’s query will be searched on the web.
 3) filter.py - have code for filtering the results on ads and proxy websites.
 4) lang_modelling.py - contains a code for filtering the result on the basis of language modelling score.
