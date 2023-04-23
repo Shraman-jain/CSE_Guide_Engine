@@ -9,5 +9,6 @@
 7) blacklist.txt - contains list of all proxy websites.
 links.db -  SQLite database file where results are stored.
 8) Deploy Link: https://8642-103-25-231-102.ngrok-free.app/
-
 The deploy link is only valid for 24 April midnight. If needed we will generate another deploy link at the time of presentation. The project can also be run on local host.
+9) At first we will run requirements.txt to load all the python libraries required.
+10) To run code on local host type flask --debug run --port 5000. Port can be anything.
