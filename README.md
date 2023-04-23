@@ -2,15 +2,19 @@
 # CSE_Guide_Engine
 
 To Run this flask web application first run
-pip install -r requirements.txt 
-```
-git status
-git add
-git commit
+
+```pip install -r requirements.txt 
 ```
 to install all of the Python modules and packages listed in your requirements.txt file
 
+and then run flask app on localhost by 
 
+```
+flask --debug run --port 5001
+```
+
+
+File overview:
 
 1) app.py - contains main code for flask app.
 2) search.py - contains a code where user’s query will be searched on the web.
