@@ -33,6 +33,6 @@ File overview:
 
 `links.db` -  SQLite database file where results are stored.
 ## links 
-`Deploy Link` [CseGuideEngine](https://8642-103-25-231-102.ngrok-free.app/)
+`Deploy Link` [CSEngine](https://8642-103-25-231-102.ngrok-free.app/)
 
 This project is deployed on ngrok and it may expire by the time of presentation. We can still run the project on local host or deploy again to genrate new URL.
